@@ -1,5 +1,17 @@
 numpy
 pandas
 seaborn
+
+python-dotenv
+mysql-connector-python
+pymysql
+
+scikit-learn
+# catboost
+# xgboost
+# mlflow
+
 #xgboost
 # -e .
+
+
