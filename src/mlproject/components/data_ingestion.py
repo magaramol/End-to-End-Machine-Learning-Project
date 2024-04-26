@@ -34,8 +34,8 @@ class DataIngestion:
 
 
             # reading data from mysql
-            df=read_sql_data()
-
+            #df=read_sql_data()
+            df=pd.read_csv(os.path.join('/home/ams/Documents/python/vscode/Hindi/notebook/data/raw.csv'))
             logging.info('Reading from MYSQl DB')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
