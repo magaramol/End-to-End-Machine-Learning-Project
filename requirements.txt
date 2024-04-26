@@ -7,9 +7,9 @@ mysql-connector-python
 pymysql
 
 scikit-learn
-# catboost
-# xgboost
-# mlflow
+catboost
+xgboost
+# # mlflow
 
 #xgboost
 # -e .
