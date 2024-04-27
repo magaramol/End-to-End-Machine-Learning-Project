@@ -17,8 +17,8 @@ if __name__=="__main__":
         #data_ingestion_config=DataingestionConfig
         data_ingestion=DataIngestion()
         train_path_data,test_path_data=data_ingestion.initiate_data_ingestion()
-        #         data_ingestion.initiate_data_ingestion()
-       # data_ingestion=DataIngestion()
+        #        data_ingestion.initiate_data_ingestion()
+       # data_ingestion=DataIngestion() 
         #train_data_path,test_data_path=data_ingestion.initiate_data_ingestion()
         #data_transformation_config=DataTransformationConfig()
         data_transformation=DataTransformation()
