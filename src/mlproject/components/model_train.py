@@ -31,6 +31,16 @@ class ModelTrainer:
     def __init__(self):
         self.model_trainer_config=ModelTrainerConfig()
 
+
+    def ModelTrainer(self):
+        def __init__(self,train_array,test_array):
+            try:
+                logging.info("split train & test input data")
+                
+            except Exception as e:
+                raise CustomException(e,sys)
+            
+
     def eval_metrics(self,actual, pred):
         rmse = np.sqrt(mean_squared_error(actual, pred))
         mae = mean_absolute_error(actual, pred)
